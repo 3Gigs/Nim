@@ -264,6 +264,9 @@ when defineSsl:
       ErrClearError()
       # Call the desired operation.
       opResult = op
+      var err = SSL_ERROR_NONE
+      if opResult < 0:
+        #err = getSslError(socket, opResult.cint) 
 
       # Send any remaining pending SSL data.
       await sendPendingSslData(socket, flags)

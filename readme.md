@@ -1,3 +1,6 @@
+Temporary patch to get nitter working on LibreSSL  
+Based on this issue [comment](https://github.com/nim-lang/Nim/issues/20144#issuecomment-1306702059)
+
 # <img src="https://raw.githubusercontent.com/nim-lang/assets/master/Art/logo-crown.png" height="28px"/> Nim
 
 [![Build Status](https://dev.azure.com/nim-lang/Nim/_apis/build/status/nim-lang.Nim?branchName=devel)](https://dev.azure.com/nim-lang/Nim/_build/latest?definitionId=1&branchName=devel)
